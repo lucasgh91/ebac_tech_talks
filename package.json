@@ -1,8 +1,10 @@
 {
   "name": "ebac_talks",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
     "dev": "parcel ./src/index.html ./src/styles/main.scss ./src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
